@@ -1,0 +1,29 @@
+.general {
+    width: 480px; height: 180px; 
+    padding-left: 20px; padding-top: 20px; margin-top: 20px; margin-left: 20px; 
+    border-radius: 5px; background-color: rgb(241, 229, 243);
+}
+
+.input {
+    margin-bottom: 20px; 
+    display: flex; flex-wrap: nowrap;
+}
+
+.submit {
+    width: 250px; height: 30px; 
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 0; margin-bottom: 15px; padding: 0;
+}
+
+.error {
+    margin-left: 10px; 
+    font-size: small; color: rgb(248, 16, 16);
+}
+
+.submitOk {
+    margin-left: 10px; 
+    font-size: small; color: rgb(30, 184, 43);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ejercicio 8</title>
+  </head>
+  <body>
+    <div class="general">
+      <form action="">
+        <h2>Ingreso al Sistema</h2>
+        <div class="input">
+          <strong>Usuario:</strong
+          ><input
+            type="email"
+            style="width: 180px; margin-left: 5px"
+            placeholder="ingrese su email..."
+            id="email"
+          />
+          <div class="error" id="conArroba"></div>
+        </div>
+        <div class="input">
+          <strong>Clave:</strong>
+          <input
+            type="text"
+            style="width: 190px; margin-left: 5px"
+            placeholder="ingrese su clave..."
+            id="clave"
+          />
+          <div class="error" id="noVacio"></div>
+        </div>
+        <div class="input">
+          <button type="submit" class="submit" id="submit">Ingresar</button>
+          <div class="submitOk" id="ingresoOK"></div>
+        </div>
+      </form>
+    </div>
+    <script src="control.js"></script>
+  </body>
+</html>
